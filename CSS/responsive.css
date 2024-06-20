@@ -1,0 +1,115 @@
+@media (max-width: 1350px) {
+   .left{
+    background-color: black;
+    position: absolute;
+    left: -130%;
+    transition: all 1s;
+    width: 333px;
+    z-index: 1;
+   }
+   .right{
+    width: 100vw;
+   }
+   .playbar{
+    width: calc(100vw - 60px);
+    font-size: 12px;
+   }
+   .hamflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .hamm{
+    display: block;
+   }
+   .LC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .cross{
+    display: block;
+   }
+   .seekbar{
+    width: calc(100vw - 70px);
+   }
+   .signbtn{
+    font-size: 13px;
+   }
+   .signbtn:hover {
+    color: white;
+    font-size: 15px;
+  }
+  .loginbtn{
+    padding: 6px;
+    width: 69px;
+    font-size: 13px;
+  }
+  .buttons > * {
+    margin: 0 5px;
+  }
+  .header > * {
+    padding: 5px;
+  }
+  .abovebar{
+    margin: 10px 0;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+  }
+  .card{
+    width: 44vw;
+  }
+  .cardContainer{
+    margin: 0;
+    justify-content: center;
+    /* max-height: 58vh; */
+  }
+  .right{
+    margin: 0;
+  }
+  .songinfo, .songtime{
+    width: auto;
+  }
+  .voltime{
+   flex-direction: column;
+   gap: 0;
+  }
+  .play{
+    top: 273px;
+    
+  }
+  .songss .info{
+    width: 150px;
+    text-wrap: wrap;
+  }
+  .songss ul li{
+    text-wrap: wrap;
+  }
+    
+}
+
+@media (max-width: 680px) {
+  .card{
+    width: 74vw;
+  }
+  .play{
+    top: 160px
+    
+  }
+  
+}
+@media (max-width: 810px) {
+  .card{
+    width: 74vw;
+  }
+  .cardContainer{
+    max-height: 57vh;
+  }
+  .play{
+    top: 220px;
+    
+  }
+  
+}
